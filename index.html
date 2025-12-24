@@ -4,30 +4,139 @@
   <meta charset="UTF-8">
   <title>Sanjana & Harsha | Wedding</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,500&family=Montserrat:wght@300;400&family=Allura&display=swap" rel="stylesheet">
 </head>
 <body>
 
+  <!-- NAVIGATION -->
+  <nav class="top-nav">
+    <ul>
+      <li><a href="#engagement">Engagement</a></li>
+      <li><a href="#pasupu">Pasupu</a></li>
+      <li><a href="#haldi">Haldi</a></li>
+      <li><a href="#sangeet">Sangeet</a></li>
+      <li><a href="#wedding">Wedding</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
   <section class="hero">
-    <h1>Sanjana ❤️ Harsha</h1>
-    <p>getting married</p>
-    <h2>📅 25 Feb 2026</h2>
+    <div class="hero-overlay">
+      <h1 class="hero-title">Saha</h1>
+      <p class="hero-names">Sanjana & Harsha</p>
+      <p class="hero-date">Febuary 25, 2026</p>
+    </div>
   </section>
 
-  <section class="section">
-    <h2>Wedding Events</h2>
-    <p>💍 Engagement</p>
-    <p>👰 Wedding</p>
+  <!-- COUNTDOWN -->
+  <div id="countdown">
+    <div class="time-box">
+      <span id="days">0</span>
+      <small>Days</small>
+    </div>
+    <div class="time-box">
+      <span id="hours">0</span>
+      <small>Hours</small>
+    </div>
+    <div class="time-box">
+      <span id="minutes">0</span>
+      <small>Minutes</small>
+    </div>
+    <div class="time-box">
+      <span id="seconds">0</span>
+      <small>Seconds</small>
+    </div>
+  </div>
+
+  <!-- ENGAGEMENT PHOTOS -->
+  <section id="engagement" class="photo-section">
+    <h2 class="section-title">Engagement</h2>
+    <div id="engagement-gallery" class="photo-grid"></div>
   </section>
 
-  <section class="section">
-    <h2>RSVP</h2>
-    <a class="btn" href="#">Coming Soon</a>
-  </section>
+  <!-- PASUPU PHOTOS -->
+<section id="pasupu" class="photo-section">
+  <h2 class="section-title">Pasupu</h2>
+  <div id="pasupu-gallery" class="photo-grid"></div>
+</section>
 
+<!-- HALDI INVITE -->
+<section id="haldi" class="photo-section">
+  <h2 class="section-title">Haldi</h2>
+
+  <p class="haldi-invite">
+    22nd February • Morning 10:00 AM onwards
+  </p>
+
+  <p class="haldi-note">
+  Kindly dress in <span>yellow</span> to celebrate the Haldi ceremony 🌼
+</p>
+
+  <a
+    class="haldi-map-link"
+    href="https://www.google.com/maps/place/Coco+Farms/@17.1820801,82.3047773,17z/data=!3m1!4b1!4m6!3m5!1s0x3a39d3350aba5045:0x4a891b7a0b31cf05!8m2!3d17.182075!4d82.3073522!16s%2Fg%2F11v14lvrt4?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D"
+    target="_blank"
+  >
+    📍 View Location on Google Maps
+  </a>
+</section>
+
+<!-- SANGEET INVITE -->
+<section id="sangeet" class="photo-section">
+  <h2 class="section-title">Sangeet</h2>
+
+  <p class="haldi-invite">
+    22nd February • Night 7:00 PM onwards
+  </p>
+
+  <p class="haldi-note">
+    Join us for an evening of music, dance, and celebration ✨
+  </p>
+
+  <a
+    class="haldi-map-link"
+    href="https://www.google.com/maps/place/Coco+Farms/@17.1820801,82.3047773,17z/data=!3m1!4b1!4m6!3m5!1s0x3a39d3350aba5045:0x4a891b7a0b31cf05!8m2!3d17.182075!4d82.3073522!16s%2Fg%2F11v14lvrt4?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D"
+    target="_blank"
+  >
+    📍 View Location on Google Maps
+  </a>
+</section>
+
+<!-- WEDDING INVITE -->
+<section id="wedding" class="photo-section">
+  <h2 class="section-title">Wedding</h2>
+
+  <p class="haldi-invite">
+    25th February • 8:00 PM onwards
+  </p>
+
+  <p class="haldi-note">
+    Join us and bless us on our special day 🤍
+  </p>
+
+  <a
+    class="haldi-map-link"
+    href="https://www.google.com/maps/place/Gadiraju+Palace+Convention+Center+%26+Hotel/@17.7376165,83.3414957,17z/data=!3m1!4b1!4m9!3m8!1s0x3a39451f1d4ecab7:0xf2c3da77438ed647!5m2!4m1!1i2!8m2!3d17.7376165!4d83.3414957!16s%2Fg%2F11h12_q91v?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D"
+    target="_blank"
+  >
+    📍 View Location on Google Maps
+  </a>
+  <a
+    class="wedding-youtube-link"
+    href="https://www.youtube.com/watch?v=YOUR_LIVE_LINK"
+    target="_blank"
+  >
+    ▶ Watch Wedding Live on YouTube
+  </a>
+</section>
   <footer>
     <p>With love, Sanjana & Harsha</p>
   </footer>
 
+  <script src="assets/script.js"></script>
 </body>
 </html>
