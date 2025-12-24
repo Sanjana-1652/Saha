@@ -65,30 +65,6 @@ footer {
 }
 
 /* =====================================================
-   NAVIGATION
-   ===================================================== */
-
-.top-nav {
-  position: sticky;
-  top: 0;
-  background: var(--bg-main);
-  padding: 15px 0;
-  text-align: center;
-  z-index: 10;
-}
-
-.top-nav ul {
-  list-style: none;
-  display: inline-flex;
-  gap: 30px;
-}
-
-.top-nav a {
-  font-size: 0.85em;
-  letter-spacing: 1px;
-}
-
-/* =====================================================
    HERO SECTION
    ===================================================== */
 
